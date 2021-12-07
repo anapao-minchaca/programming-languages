@@ -20,7 +20,7 @@ in_list([_|Tail], Head) :-
 /*
     FUNCTIONS: element_at
     INPUT: an index, a list, variable to generate list
-    OUTPUT: list containing the numbers in the fibonacci sequence
+    OUTPUT: position where the element is
 */
 
 % we find the element
@@ -43,7 +43,7 @@ element_at(N, L, Head) :-
 /*
     FUNCTIONS: range
     INPUT: starting, ending, increment, variable to generate list
-    OUTPUT: list of numbers from start to finisg
+    OUTPUT: list of numbers from start to finish
 */
 
 % if the increment is positive and start is higher or equals the end
